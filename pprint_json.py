@@ -4,7 +4,7 @@ import pprint
 
 
 def load_data(file_path):
-    with open(file_path, "r") as json_file:
+    with open(file_path, 'r') as json_file:
         return json.loads(json_file.read())
 
 

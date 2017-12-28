@@ -100,6 +100,9 @@ ENV/
 # mypy
 .mypy_cache/
 
+# Json
+*.json
+
 # pycharm
 .idea/
 
