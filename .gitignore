@@ -106,4 +106,4 @@ ENV/
 # pycharm
 .idea/
 
-.directory/
+.directory
