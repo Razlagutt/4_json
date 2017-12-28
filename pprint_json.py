@@ -8,8 +8,8 @@ def load_data(file_path):
         return json.loads(json_file.read())
 
 
-def pretty_print_json(data):
-    pprint.pprint(data)
+def pretty_print_json(data_json):
+    pprint.pprint(data_json)
 
 
 if __name__ == '__main__':
