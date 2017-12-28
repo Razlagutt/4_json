@@ -6,7 +6,7 @@ The script generate readable output of the json-file
 
 The script is run with the following command line:
 
-```python
+```bash
 
 $ python3 pprint_json.py path/to/file
 
