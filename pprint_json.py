@@ -1,13 +1,17 @@
+import sys
 import json
+import pprint
 
 
 def load_data(filepath):
-    pass
+    with open(filepath, "r") as data:
+        return json.loads(data.read())
 
 
 def pretty_print_json(data):
-    pass
+    pprint.pprint(data)
 
 
 if __name__ == '__main__':
-    pass
+    pretty_print_json(
+        load_data(sys.argv[1]))
