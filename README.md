@@ -15,7 +15,7 @@ Example of script launch on Linux, Python 3.5:
 
 ```bash
 
-$ python3 pprint_json.py path/to/file
+$ python3 pprint_json.py data.json
 [{'Cells': {'Address': 'улица Академика Павлова, дом 10',
             'AdmArea': 'Западный административный округ',
             'ClarificationOfWorkingHours': None,
